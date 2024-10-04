@@ -1,0 +1,40 @@
+[
+  {
+    "screenType": "login",
+    "description": "User login interface allowing access via email/password or social logins.",
+    "fields": [
+      { "type": "text", "label": "Email" },
+      { "type": "password", "label": "Password" }
+    ],
+    "actions": [
+      { "type": "button", "label": "Login" },
+      { "type": "link", "label": "Forgot password" },
+      { "type": "link", "label": "Sign up" }
+    ]
+  },
+  {
+    "screenType": "signup",
+    "description": "User registration form with fields for email, password, and user preferences.",
+    "fields": [
+      { "type": "text", "label": "Email" },
+      { "type": "password", "label": "Password" },
+      { "type": "text", "label": "Preferences" }
+    ],
+    "actions": [
+      { "type": "button", "label": "Sign up" },
+      { "type": "link", "label": "Already have an account? Log in" }
+    ]
+  },
+  {
+    "screenType": "home",
+    "description": "Overview of personalized learning plans, progress, and available daily challenges.",
+    "fields": [],
+    "actions": [
+      { "type": "link", "label": "View Learning Plans" },
+      { "type": "link", "label": "Daily Challenges" },
+      { "type": "link", "label": "Progress Tracker" },
+      { "type": "button", "label": "Start Learning" }
+    ]
+  }
+  
+]
