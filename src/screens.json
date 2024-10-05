@@ -1,40 +1,972 @@
 [
   {
-    "screenType": "login",
-    "description": "User login interface allowing access via email/password or social logins.",
+    "screenType": "screen1",
+    "description": "Screen 1",
     "fields": [
-      { "type": "text", "label": "Email" },
-      { "type": "password", "label": "Password" }
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 1",
+        "content": "Overview"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 2",
+        "content": "Theprojectaimstodevelopalanguagelearningmobileapplicationwithadvanced"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 3",
+        "content": "featurespoweredby AI, targetingunderrepresentedlanguages.  Theappisdesignedfortwo"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 4",
+        "content": "primaryusergroups:"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 5",
+        "content": "1. Beginners:Userswithnopriorknowledgeofthelanguage."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 6",
+        "content": "2. Intermediate Learners:Userswithsomeunderstandingofthelanguagebutseeking"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 7",
+        "content": "improvement,  especiallyinspeakingandpronunciation."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 8",
+        "content": "Theapplicationwillofferpersonalisedlearningplansbasedonuserproficiency,  goals,  and"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 9",
+        "content": "availabletime.  Theseplanswillincludeavarietyofactivitieslikequizzes,  dailychallenges,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 10",
+        "content": "andpronunciationexercises.  The AIwilltrackuserperformance,  adaptthecontent,  and"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 11",
+        "content": "providereal-timefeedback,  creatingadynamicandengaginglearningexperience."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 12",
+        "content": "Mobile App Development Features"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 13",
+        "content": "1. Personalized Learning Plans"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 14",
+        "content": "●AI-Driven Customization:Eachuserwillreceiveaunique,  AI-generatedlearning"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 15",
+        "content": "plantailoredtotheirspecificgoals,  languageproficiency,  andpaceoflearning.  The"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 16",
+        "content": "AIwilladjusttheplanbasedontheuser'sperformance,  providingapersonalised"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 17",
+        "content": "pathtolanguagemastery."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 18",
+        "content": "●Dynamic Course Structure:Theappwillofferastructuredlearningpathwith"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 19",
+        "content": "definedmilestones(e.  g. , beginner,  intermediate,  andadvancedlevels). Coursesare"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 20",
+        "content": "dividedintomodulesthatincludevocabularybuilding,  grammarlessons,  and"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 21",
+        "content": "conversationalpractice."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 22",
+        "content": "●Adaptive Learning:Asusersprogress,  the AIwilladjustthedifficultyoflessonsand"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 23",
+        "content": "quizzesbasedonperformancedata.  Forinstance,  ifauserexcelsinvocabularybut"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 24",
+        "content": "struggleswithgrammar,  theappwillfocusmoreongrammarlessonsuntiltheuser"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 25",
+        "content": "improves."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 26",
+        "content": "2. Speech Recognitionand Pronunciation Feedback"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 27",
+        "content": "●Whisper API Integration:Theappwillleverage Open AI's Whisper AP Iforspeech"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 28",
+        "content": "recognition,  enablinguserstopracticepronunciation.  Userswillbepromptedto"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 29",
+        "content": "repeatwordsorsentences,  andthe AIwillassesstheirpronunciation,  providing"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 30",
+        "content": "real-timefeedbackonareasneedingimprovement."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 31",
+        "content": "●Confidence Scoring:The AIwilltrackhowconfidentlyuserspronouncewordsby"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 32",
+        "content": "analyzingspeechpatterns,  pauses,  andfluency.  Aconfidencescorewillbeprovided"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 33",
+        "content": "aftereachexercise,  allowinguserstotracktheirimprovementovertime."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 34",
+        "content": "●Feedback Mechanism:Insteadoftheappspeakingbacktotheuser,  feedbackwill"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 35",
+        "content": "begivenintextform.  Thiswillincludedetailslikewhatwaspronouncedincorrectly,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 36",
+        "content": "howtoimprove,  andexamplesofcorrectpronunciation."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 1 - Line 37",
+        "content": "3. Daily Challengesand Quizzes"
+      }
     ],
     "actions": [
-      { "type": "button", "label": "Login" },
-      { "type": "link", "label": "Forgot password" },
-      { "type": "link", "label": "Sign up" }
+      {
+        "type": "button",
+        "label": "Next",
+        "onClick": "nextScreen"
+      }
     ]
   },
   {
-    "screenType": "signup",
-    "description": "User registration form with fields for email, password, and user preferences.",
+    "screenType": "screen2",
+    "description": "Screen 2",
     "fields": [
-      { "type": "text", "label": "Email" },
-      { "type": "password", "label": "Password" },
-      { "type": "text", "label": "Preferences" }
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 1",
+        "content": "●Engagementthrough Variety:Theappwillpresentdailychallengesthatengage"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 2",
+        "content": "userswithactivitiessuchasmultiple-choicequestions,  fill-in-the-blankexercises,  and"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 3",
+        "content": "sentenceconstructiontasks."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 4",
+        "content": "●Adaptive Difficulty:Quizzeswilladjustindifficultybasedonpastperformance,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 5",
+        "content": "ensuringthatthecontentremainschallengingandmotivating.  Forexample,  auser"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 6",
+        "content": "whofrequentlyanswersmultiple-choicequestionscorrectlywillmoveontomore"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 7",
+        "content": "complexsentence-buildingexercises."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 8",
+        "content": "●Interactive Learning:Eachday,  theappwillintroducenewvocabularywordsin"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 9",
+        "content": "variousformats(e.  g. , flashcards,  quizzes). Theappwillalsosimulatereal-life"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 10",
+        "content": "scenariostoimproveconversationalskills,  suchasrole-playingarestaurantvisitora"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 11",
+        "content": "marketinteraction."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 12",
+        "content": "4. Language Progress Tracking"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 13",
+        "content": "●Real-Time Performance Monitoring:Userprogressistrackedinreal-time,  with"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 14",
+        "content": "performancedatastoredinthecloud.  Theappwillshowdetailedreportson"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 15",
+        "content": "proficiencylevelsacrossdifferentareas(e.  g. , speaking,  listening,  reading,  writing)."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 16",
+        "content": "●Progress Analytics:Userswillreceiveregularupdatesontheirprogresswithvisual"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 17",
+        "content": "indicatorslikegraphsandcharts,  showingimprovementinpronunciationaccuracy,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 18",
+        "content": "grammar,  andvocabularyretention."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 19",
+        "content": "●Goal Tracking:Userscansetpersonalgoals(e.  g. , learningfor 10 minutesadayor"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 20",
+        "content": "mastering 50 newwordsinaweek). The AIwillremindusersoftheirgoalsandtrack"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 21",
+        "content": "progresstowardachievingthem."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 22",
+        "content": "5. Multi-Language Support"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 23",
+        "content": "●Initial Focuson Less Common Languages:Theappwillinitiallysupportlanguages"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 24",
+        "content": "thatareunderrepresentedinmainstreamlearningplatforms,  suchas Somali,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 25",
+        "content": "Nigeriandialects,  Urdu,  and Bengali.  Thisfocusonless-knownlanguageswillgive"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 26",
+        "content": "theappauniquemarketposition."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 27",
+        "content": "●Scalable Language Addition:Thesystemwillbedesignedtosupporttheeasy"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 28",
+        "content": "onboardingofadditionallanguages.  Asnewlanguagesareadded,  theappwilluse"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 29",
+        "content": "thesame AI-generatedcoursestructure,  reducingdevelopmenttimeforfuture"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 30",
+        "content": "updates."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 31",
+        "content": "6. Push Notificationsand Alarms"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 32",
+        "content": "●Learning Reminders:Userswillreceivepushnotificationsencouragingthemto"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 33",
+        "content": "continuetheirlessons.  Theappwillsuggestoptimalstudytimesbasedonuser"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 34",
+        "content": "preferencesandhabits,  helpingensureregularpractice."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 35",
+        "content": "●Customizable Alarms:Userscansetalarmstoremindthemselvestostudyat"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 36",
+        "content": "specifictimes(e.  g. , firstthinginthemorning), reinforcingthehabitofdailypractice."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 37",
+        "content": "7. Translation Assistance"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 38",
+        "content": "●Text-Based Translation:Userswillbeabletotranslatephrasesintotheirtarget"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 39",
+        "content": "languageusingtext-basedinput.  Thisfeaturewillbeparticularlyhelpfulfortravelers"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 2 - Line 40",
+        "content": "oruserswhoneedtocommunicateinreal-time(e.  g. , orderingfoodatarestaurant)."
+      }
     ],
     "actions": [
-      { "type": "button", "label": "Sign up" },
-      { "type": "link", "label": "Already have an account? Log in" }
+      {
+        "type": "button",
+        "label": "Next",
+        "onClick": "nextScreen"
+      }
     ]
   },
   {
-    "screenType": "home",
-    "description": "Overview of personalized learning plans, progress, and available daily challenges.",
-    "fields": [],
+    "screenType": "screen3",
+    "description": "Screen 3",
+    "fields": [
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 1",
+        "content": "●Pronunciation Support:Theappwillalsoprovideuserswiththecorrect"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 2",
+        "content": "pronunciationfortranslatedphrases,  helpingthemengageinbasicconversationsin"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 3",
+        "content": "thetargetlanguage."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 4",
+        "content": "Backend Admin Panel Features"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 5",
+        "content": "Thebackendadminpanelwillbethecontrolcenterformanagingtheapp’scontent,  users,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 6",
+        "content": "andsystemconfigurations.  Adminswillhavedifferentlevelsofaccessbasedontheirroles."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 7",
+        "content": "1. Course Management"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 8",
+        "content": "●Createand Manage Courses:Adminscancreatenewlanguagecoursesusing"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 9",
+        "content": "AI-generatedtemplates.  Theycandefinecourseobjectives,  timelines,  andthetypes"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 10",
+        "content": "ofexercises(e.  g. , quizzes,  conversationpractice,  pronunciationdrills)."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 11",
+        "content": "●Course Levelsand Structure:Coursescanbedividedintolevels(e.  g. , beginner,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 12",
+        "content": "intermediate,  expert)withspecificcontentandgoalsforeachstage.  Adminscanalso"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 13",
+        "content": "setprogressioncriteria(e.  g. , passingcertainquizzestounlocknewcontent)."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 14",
+        "content": "2. User Progress Monitoring"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 15",
+        "content": "●Real-Time User Analytics:Theadminpanelwillprovideinsightsintouseractivity,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 16",
+        "content": "includingthenumberofusersactive,  theiraverageprogress,  andengagement"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 17",
+        "content": "metrics."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 18",
+        "content": "●Detailed Performance Reports:Adminscanviewperformancedataonindividual"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 19",
+        "content": "users,  includingquizscores,  pronunciationaccuracy,  timespentintheapp,  and"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 20",
+        "content": "overallproficiency."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 21",
+        "content": "3. Content Management"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 22",
+        "content": "●Quizand Exercise Creation:Adminscancreatequizzes,  exercises,  andinteractive"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 23",
+        "content": "learningmaterials.  Contentcanbecustomizedfordifferentlanguagesand"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 24",
+        "content": "proficiencylevels."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 25",
+        "content": "●Prompt Management:Adminswillmanagethepromptsusedbythe AItogenerate"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 26",
+        "content": "content,  ensuringthatthelearningmaterialremainsrelevantandeffective."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 27",
+        "content": "4. Dataand Performance Analytics"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 28",
+        "content": "●System Performance Tracking:Thebackendwillincludetoolsformonitoringserver"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 29",
+        "content": "performance,  databasehealth,  andloadbalancing.  AW Sinfrastructurewillensure"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 30",
+        "content": "thatthesystemscalesasthenumberofusersgrows."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 31",
+        "content": "●Content Effectiveness Analysis:Adminscantracktheeffectivenessofcourses"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 32",
+        "content": "throughuserfeedbackandcompletionrates.  Thesystemwillgeneratereportson"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 33",
+        "content": "contentperformancetohelprefineandimprovecourses."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 34",
+        "content": "5. Role-Based Access Control(RBAC)"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 35",
+        "content": "●Admin Access:Fullcontroloverallaspectsofthesystem,  includingmanaging"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 3 - Line 36",
+        "content": "users,  content,  courses,  andsystemconfigurations."
+      }
+    ],
     "actions": [
-      { "type": "link", "label": "View Learning Plans" },
-      { "type": "link", "label": "Daily Challenges" },
-      { "type": "link", "label": "Progress Tracker" },
-      { "type": "button", "label": "Start Learning" }
+      {
+        "type": "button",
+        "label": "Next",
+        "onClick": "nextScreen"
+      }
+    ]
+  },
+  {
+    "screenType": "screen4",
+    "description": "Screen 4",
+    "fields": [
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 1",
+        "content": "●Content Manager Access:Abilitytomanageandupdatequizzes,  exercises,  and"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 2",
+        "content": "learningmaterialsbutlimitedaccesstosystem-widesettings."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 3",
+        "content": "●Course Creator Access:Focusedoncreatingandupdatingcoursesbasedon"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 4",
+        "content": "AI-generatedcontent,  withlimitedaccesstouserdataoranalytics."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 5",
+        "content": "●User Access:Regularappuserscanaccesslearningmaterials,  completeexercises,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 6",
+        "content": "andtracktheirprogressbuthavenocontrolovercontentorsystemsettings."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 7",
+        "content": "Table:Rolesand Functionsinthe Backend"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 8",
+        "content": "Role Function Access Level"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 9",
+        "content": "Admin Fullaccesstoallfeatures,  including"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 10",
+        "content": "usermanagement,  contentcreation,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 11",
+        "content": "andbackendconfigurations."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 12",
+        "content": "Highestaccesslevel,  including"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 13",
+        "content": "managingroles,  viewingalldata,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 14",
+        "content": "andsystemsettings."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 15",
+        "content": "Content"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 16",
+        "content": "Manager"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 17",
+        "content": "Manageandupdatecourses,  quizzes,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 18",
+        "content": "andexercises."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 19",
+        "content": "Moderateaccess:Cancreateand"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 20",
+        "content": "updatecontent,  butnoaccessto"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 21",
+        "content": "system-widesettings."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 22",
+        "content": "Course"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 23",
+        "content": "Creator"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 24",
+        "content": "Create AI-poweredlanguagecourses"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 25",
+        "content": "usingtemplatesandprompts."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 26",
+        "content": "Canonlyaccesscontentcreation"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 27",
+        "content": "toolsandlimitedanalyticsrelated"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 28",
+        "content": "tocourseperformance."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 29",
+        "content": "User Accesslanguagecourses,  complete"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 30",
+        "content": "exercises,  andtrackprogress."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 31",
+        "content": "Basicaccesstolearningmaterials"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 32",
+        "content": "andpersonalprogresstracking."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 33",
+        "content": "Key Featuresofthe App"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 34",
+        "content": "1. AI-Powered Personalized Learning"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 35",
+        "content": "●Tailored Learning Experience:The AIadaptsthecoursecontentbasedonuser"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 36",
+        "content": "performance,  makinglearningmoreefficientandeffective."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 37",
+        "content": "●Dynamic Adjustments:Theappwillmodifythecontentinreal-timeasusers"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 38",
+        "content": "completequizzes,  speak,  andengagewiththeapp.  Thisensuresthatlearningis"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 39",
+        "content": "neithertooeasynortoodifficult,  keepingusersmotivated."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 40",
+        "content": "2. Speech Recognition&Pronunciation Feedback"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 41",
+        "content": "●Pronunciation Practice:Userspracticespeakingexercises,  andthe AIprovides"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 42",
+        "content": "real-timefeedbackonpronunciationaccuracy,  confidence,  andfluency."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 43",
+        "content": "●Real-Time Corrections:The AIidentifiesmistakesinpronunciationandsuggests"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 4 - Line 44",
+        "content": "improvements,  helpingusersdevelopcorrectspeakinghabitsfromthestart."
+      }
+    ],
+    "actions": [
+      {
+        "type": "button",
+        "label": "Next",
+        "onClick": "nextScreen"
+      }
+    ]
+  },
+  {
+    "screenType": "screen5",
+    "description": "Screen 5",
+    "fields": [
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 1",
+        "content": "3. Multilingual Support"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 2",
+        "content": "●Unique Language Offering:Withafocusonlesscommonlanguages,  theappfillsa"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 3",
+        "content": "gapinthelanguage-learningmarket.  Thisallowsuserstolearnlanguagesthatare"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 4",
+        "content": "notwidelysupportedbyotherplatforms."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 5",
+        "content": "●Scalable Framework:Theapp’sinfrastructureisdesignedtoeasilyscale,  allowing"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 6",
+        "content": "fortheseamlessadditionofnewlanguagesastheuserbasegrows."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 7",
+        "content": "4. Push Notifications&Alarms"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 8",
+        "content": "●Learning Reminders:Pushnotificationsencouragedailypractice,  helpingusers"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 9",
+        "content": "establishconsistentlearninghabits.  Userscanalsosetalarmstoremindthemselves"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 10",
+        "content": "oftheirstudytime."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 11",
+        "content": "●Customizable Notifications:Userscanpersonalizewhenandhowoftenthey"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 12",
+        "content": "receivenotifications,  makingiteasiertointegratelearningintotheirdailyroutine."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 13",
+        "content": "5. Cloud-Based Scalability"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 14",
+        "content": "●AWS-Powered Infrastructure:Theappwilluse Amazon Web Services(AWS)to"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 15",
+        "content": "ensurescalability,  reliability,  andsecurity.  Thisinfrastructureallowstheapptohandle"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 16",
+        "content": "thousandsofconcurrentuserswithminimaldowntime."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 17",
+        "content": "●Elastic Load Balancing:Thesystemwilldynamicallydistributetrafficacross"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 18",
+        "content": "multipleservers,  ensuringsmoothperformanceevenduringhigh-demandperiods."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 19",
+        "content": "6. Engaging Learning Activities"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 20",
+        "content": "●Interactive Exercises:Usersengageinvarioustypesofactivitiessuchasquizzes,"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 21",
+        "content": "fill-in-the-blankexercises,  andsentenceconstruction.  Thevarietykeepslearning"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 22",
+        "content": "engagingandpreventsmonotony."
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 23",
+        "content": "●Real-Life Scenarios:Theappwillsimulatereal-worldscenarios(e.  g. , orderingfood"
+      },
+      {
+        "type": "textBlock",
+        "label": "Section 5 - Line 24",
+        "content": "inarestaurantoraskingfordirections)toimproveconversationalskills."
+      }
+    ],
+    "actions": [
+      {
+        "type": "button",
+        "label": "Next",
+        "onClick": "nextScreen"
+      }
     ]
   }
-  
 ]

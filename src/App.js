@@ -13,46 +13,85 @@ function App() {
     setCurrentScreenIndex((prevIndex) => (prevIndex - 1 + screens.length) % screens.length);
   };
 
-  const renderField = (field) => {
-    switch (field.type) {
+  // Dynamic renderer for any field or HTML element
+  const renderElement = (element, key) => {
+    const { type, label, ...rest } = element;
+
+    switch (type) {
+      case 'textBlock':
+        return (
+          <div className="text-block" key={key}>
+            {label && <h3>{label}</h3>}
+            <p>{rest.content}</p>
+          </div>
+        );
+      case 'progressBar':
+        return (
+          <div className="progress-bar" key={key}>
+            <label>{label}</label>
+            <progress value={element.value} max={element.max}></progress>
+          </div>
+        );
+      case 'button':
+        return (
+          <button className="action-btn" key={key} onClick={() => console.log(rest.onClick)}>
+            {label}
+          </button>
+        );
+      case 'link':
+        return (
+          <a className="action-link" href={rest.href} key={key}>
+            {label}
+          </a>
+        );
       case 'text':
       case 'password':
+      case 'email':
+      case 'number':
         return (
-          <div className="input-group" key={field.label}>
-            <label>{field.label}</label>
-            <input type={field.type} placeholder={field.label} />
+          <div className="input-group" key={key}>
+            {label && <label>{label}</label>}
+            <input type={type} placeholder={label} {...rest} />
+          </div>
+        );
+      case 'card':
+        return (
+          <div className="card" key={key}>
+            <h3>{element.title}</h3>
+            <p>{element.description}</p>
+            <p><strong>Duration:</strong> {element.estimatedTime}</p>
+            <p><strong>Difficulty:</strong> {element.difficulty}</p>
           </div>
         );
       default:
-        return null;
+        return <div key={key}>Unsupported element: {type}</div>;
     }
   };
 
-  const renderAction = (action) => {
-    switch (action.type) {
-      case 'button':
-        return <button className="action-btn" key={action.label}>{action.label}</button>;
-      case 'link':
-        return <a className="action-link" href="#" key={action.label}>{action.label}</a>;
-      default:
-        return null;
-    }
+  // Function to render each screen based on the structure from JSON
+  const HomeScreen = ({ screen }) => {
+    return (
+      <div className="App">
+        <div className="mobile-frame">
+          <h1>{screen.screenType.charAt(0).toUpperCase() + screen.screenType.slice(1)} Screen</h1>
+          <p>{screen.description}</p>
+          <form>
+            {/* Render fields dynamically */}
+            {screen.fields && screen.fields.map((field, index) => renderElement(field, index))}
+          </form>
+        </div>
+        <div className="navigation">
+          {screen.actions && screen.actions.map((action, index) => renderElement(action, index))}
+        </div>
+      </div>
+    );
   };
 
   const currentScreen = screens[currentScreenIndex];
 
   return (
     <div className="App">
-      <div className="mobile-frame">
-        <h1>{currentScreen.screenType.charAt(0).toUpperCase() + currentScreen.screenType.slice(1)} Screen</h1>
-        <p>{currentScreen.description}</p>
-        <form>
-          {currentScreen.fields.map((field) => renderField(field))}
-          <div className="actions">
-            {currentScreen.actions.map((action) => renderAction(action))}
-          </div>
-        </form>
-      </div>
+      <HomeScreen screen={currentScreen} />
       <div className="navigation">
         <button onClick={handlePrev}>Previous</button>
         <button onClick={handleNext}>Next</button>

@@ -1,20 +1,22 @@
+/* General styles */
 .App {
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #f9f9f9;
 }
 
+/* Mobile frame */
 .mobile-frame {
-  background-color: white;
+  background-color: #ffffff;
   width: 375px;
   height: 667px;
   padding: 20px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -24,14 +26,18 @@
 }
 
 h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
 }
 
 p {
   font-size: 14px;
   margin-bottom: 20px;
   text-align: center;
+  color: #666;
+  line-height: 1.5;
 }
 
 form {
@@ -42,34 +48,55 @@ form {
 }
 
 .input-group {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   width: 80%;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
 }
 
 .input-group input {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+  transition: border-color 0.3s ease;
 }
 
+.input-group input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Action button */
 .action-btn {
-  padding: 10px 20px;
+  padding: 12px 25px;
   margin: 10px 5px;
   background-color: #4CAF50;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
+.action-btn:hover {
+  background-color: #45a049;
+}
+
+/* Action link */
 .action-link {
-  color: blue;
+  color: #007BFF;
   margin: 0 5px;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .action-link:hover {
@@ -80,19 +107,62 @@ form {
   margin-top: 10px;
 }
 
+/* Navigation buttons */
 .navigation {
   margin-top: 20px;
 }
 
 .navigation button {
-  padding: 10px 20px;
+  padding: 12px 25px;
   margin: 10px;
   background-color: #ccc;
+  color: #333;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
 .navigation button:hover {
   background-color: #888;
+}
+
+/* Card styles */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 100%;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 15px;
+  color: #555;
+}
+
+.card p strong {
+  color: #333;
 }
